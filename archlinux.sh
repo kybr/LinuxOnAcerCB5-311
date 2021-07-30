@@ -2250,7 +2250,9 @@ then
 fi
 mount -t ext4 ${target_rootfs} /tmp/arfs
 
-tar_file="http://os.archlinuxarm.org/os/ArchLinuxARM-${archlinux_arch}-${archlinux_version}.tar.gz"
+#tar_file="http://os.archlinuxarm.org/os/ArchLinuxARM-${archlinux_arch}-${archlinux_version}.tar.gz"
+
+tar_file="http://tardis.tiny-vps.com/aarm/repos/2016/06/23/os/ArchLinuxARM-armv7-latest.tar.gz"
 
 start_progress "Downloading and extracting ArchLinuxARM rootfs"
 
